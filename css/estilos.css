@@ -1,0 +1,304 @@
+
+body, div, class, a, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin:0; border:0; padding:0; float:left;}table {border-collapse:collapse;border-spacing:0;}fieldset, img {	border:0;}address, caption, cite, code, strong, dfn, em, th, var {font-style:normal;font-weight:normal;}ol, ul {list-style:none;} caption, th {text-align:left;}h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}q:before, q:after {content:'';}abbr, acronym {border:0;}input:focus{outline:none;}
+img, figure{margin:0;padding:0;text-decoration:none;border:none;float:left;}
+a{text-decoration:none;color:#FFF;}
+.no_mostrar{display:none;}
+.absoluta{position:absolute;}
+.fija{position:fixed;}
+canvas{	outline: none;}
+
+input[type=email]:focus,
+  input[type=number]:focus,
+  input[type=password]:focus,
+  input[type=tel]:focus,
+  input[type=text]:focus,
+  input[type=url]:focus {
+  outline: none;
+}
+  
+
+body{
+    background:#FFF;
+	*background:#FFF;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+    font-family: Helvetica, Arial, sans-serif; 
+	font-size:62.5%;
+ 	color:#FFF;
+ 	overflow: hidden;
+}
+
+#prep{
+width: 100%;
+height: 100%;
+position: absolute;
+top:0;
+left:0;
+background:#FFF;
+z-index:9999;
+}
+#gif{
+width:50px;
+height:20px;
+position:absolute;
+top:50%;
+left:47%;
+
+}
+
+#vod{
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+#cont{
+	width:100%;
+	height:100%;
+    position: absolute;
+	top:0;
+	left:0;
+}
+
+#autor{background:url(../imagenes/tomas_maldonado.png) no-repeat; width:200px; height:220px; position:absolute; top:-50px; left:0px;}
+
+#bot1{
+	width:900px;
+	height:600px;
+	margin:0px auto 0px auto;
+	float:none;
+ 	cursor:pointer;
+ 	position: absolute;
+	top:0;
+	left:0;
+
+}
+
+/*--------------------------------------------------------------------------*/
+
+#ee{ background:url(../imagenes/img/bot_e1.png) no-repeat; width:100px; height:100px; position:absolute; top:200px; left:0;}
+#ee0{ background:url(../imagenes/img/bot_e.png) no-repeat; width:900px; height:100px; position:absolute; top:200px; left:0; display:none;}
+
+
+/*--------------------------------------------------------------------------*/
+
+#bot2{
+	position: relative;
+	top:0px;
+	left:200px;
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+#aa{ background:url(../imagenes/img/bot_a1.png) no-repeat; width:100px; height:100px; position:absolute; top:400px; left:0;}
+#aa0{ background:url(../imagenes/img/bot_a.png) no-repeat; width:300px; height:400px; position:absolute; top:0; left:0; display:none;}
+
+#a_bot1{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg); position: relative; top:300px; left:50px;}
+#a_bot2{ width:100px; height:100px; position: relative; top:200px; left:0px;}
+#a_bot3{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg); position: relative; top:100px; left:-50px;}
+#a_bot4{ width:100px; height:100px; position: relative; top:-100px; left:200px;}
+
+ /*-------------*/
+
+#aa1{ width:1015px; height:665px; position:absolute; top:300px; left:-1044px; display:none;}
+#aa1_fondo{ width:760px; height:665px; background:url(../imagenes/bsas/bot1/fondo1.png); position:absolute; top:0px; left:0px;}
+#aa1_menu{ width:255px; height:530px; background:url(../imagenes/bsas/bot1/menu.png); position:absolute; top:0px; left:0px;}
+#aa1_menu2{ width:390px; height:135px; background:url(../imagenes/bsas/bot1/img1.png) no-repeat; position:absolute; top:530px; left:0px;}
+#aa1_bot{ width:385px; height:265px; background:url(../imagenes/bsas/bot1/bot1.png) no-repeat; position:absolute; top:0px; left:760px;}
+
+#aa1_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:0px;}
+#aa1_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:0px;}
+#aa1_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:0px;}
+
+#aa1_foto1{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto1.png) no-repeat; margin: 50px 15px 0px 30px;}
+#aa1_foto2{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto2.png) no-repeat; margin: 50px 30px 0px 0px;}
+#aa1_foto3{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto3.png) no-repeat; margin: 10px 15px 0px 30px;}
+#aa1_foto4{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto4.png) no-repeat; margin: 10px 30px 0px 0px;}
+#aa1_foto5{ width:90px; height:130px; background:url(../imagenes/bsas/bot1/foto5.png) no-repeat; margin: 10px 15px 0px 30px;}
+#aa1_foto6{ width:90px; height:130px; background:url(../imagenes/bsas/bot1/foto6.png) no-repeat; margin: 10px 30px 0px 0px;}
+#aa1_foto7{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto7.png) no-repeat; margin: 10px 15px 50px 30px;}
+#aa1_foto8{ width:90px; height:90px; background:url(../imagenes/bsas/bot1/foto8.png) no-repeat; margin: 10px 30px 50px 0px;}
+
+#aa1_texto{ width:228px; height:515px; background:url(../imagenes/bsas/bot1/texto1.png) no-repeat; position:relative; top:60px; left:450px; }
+
+ /*-------------*/
+
+#aa2{ width:1015px; height:665px; position:absolute; top:-195px; left:589px; display:none;}
+#aa2_fondo{ width:760px; height:665px; background:url(../imagenes/bsas/bot2/fondo1.png); position:absolute; top:0px; left:0px;}
+#aa2_menu{ width:255px; height:530px; background:url(../imagenes/bsas/bot2/menu.png); position:absolute; top:0px; left:505px;}
+#aa2_menu2{ width:390px; height:135px; background:url(../imagenes/bsas/bot2/img1.png) no-repeat; position:absolute; top:530px; left:370px;}
+#aa2_bot{ width:390px; height:265px; background:url(../imagenes/bsas/bot2/bot1.png) no-repeat; position:absolute; top:130px; left:-390px;}
+
+#aa2_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#aa2_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#aa2_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#aa2_foto1{ width:125px; height:180px; background:url(../imagenes/bsas/bot2/foto1.png) no-repeat; margin: 70px 65px 0px 65px;}
+#aa2_foto2{ width:125px; height:90px; background:url(../imagenes/bsas/bot2/foto2.png) no-repeat; margin: 10px 65px 0px 65px;}
+#aa2_foto3{ width:125px; height:90px; background:url(../imagenes/bsas/bot2/foto3.png) no-repeat; margin: 10px 65px 80px 65px;}
+
+#aa2_texto{ width:231px; height:436px; background:url(../imagenes/bsas/bot2/texto1.png) no-repeat; position:relative; top:60px; left:50px; }
+
+ /*-------------*/
+
+#aa3{ width:755px; height:400px; position:absolute; top:-305px; left:598px; display:none;}
+#aa3_fondo{ width:500px; height:400px; background:url(../imagenes/bsas/bot3/fondo1.png); position:absolute; top:0px; left:0px;}
+#aa3_menu{ width:255px; height:265px; background:url(../imagenes/bsas/bot3/menu.png); position:absolute; top:0px; left:245px;}
+#aa3_menu2{ width:390px; height:135px; background:url(../imagenes/bsas/bot3/img1.png) no-repeat; position:absolute; top:265px; left:115px;}
+#aa3_bot{ width:300px; height:265px; background:url(../imagenes/bsas/bot3/bot1.png) no-repeat; position:absolute; top:140px; left:-300px;}
+
+#aa3_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:130px;}
+#aa3_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:130px;}
+#aa3_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:130px;}
+
+#aa3_foto1{ width:98px; height:133px; background:url(../imagenes/bsas/bot3/foto1.png) no-repeat; margin: 66px 76px 66px 76px;}
+
+#aa3_texto{ width:231px; height:436px; background:url(../imagenes/bsas/bot3/texto1.png) no-repeat; position:relative; top:90px; left:60px; }
+
+
+
+/*--------------------------------------------------------------------------*/
+
+#bb{ background:url(../imagenes/img/bot_b1.png) no-repeat; width:100px; height:100px; position:absolute; top:400px; left:100px; }
+#bb0{ background:url(../imagenes/img/bot_b.png) no-repeat; width:300px; height:400px; position:absolute; top:0; left:100px; display:none;}
+
+#b_bot1{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg); position: relative; top:300px; left:50px;}
+#b_bot2{ width:100px; height:100px; position: relative; top:200px; left:0px;}
+#b_bot3{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg);position: relative; top:100px; left:-50px;}
+#b_bot4{ width:100px; height:100px; position: relative; top:-100px; left:200px;}
+
+ /*-------------*/
+
+#bb1{ width:1015px; height:665px; position:absolute; top:-135px; left:585px; display:none;}
+#bb1_fondo{ width:760px; height:665px; background:url(../imagenes/alemania/bot1/fondo1.png); position:absolute; top:0px; left:0px;}
+#bb1_menu{ width:255px; height:530px; background:url(../imagenes/alemania/bot1/menu.png); position:absolute; top:0px; left:505px;}
+#bb1_menu2{ width:390px; height:135px; background:url(../imagenes/alemania/bot1/img1.png) no-repeat; position:absolute; top:530px; left:370px;}
+#bb1_bot{ width:390px; height:265px; background:url(../imagenes/alemania/bot1/bot1.png) no-repeat; position:absolute; top:270px; left:-385px;}
+
+#bb1_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb1_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb1_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#bb1_foto1{ width:90px; height:67px; background:url(../imagenes/alemania/bot1/foto1.png) no-repeat; margin: 67px 10px 0px 32px;}
+#bb1_foto2{ width:90px; height:67px; background:url(../imagenes/alemania/bot1/foto2.png) no-repeat; margin: 67px 33px 0px 0px;}
+#bb1_foto3{ width:90px; height:60px; background:url(../imagenes/alemania/bot1/foto3.png) no-repeat; margin: 10px 10px 0px 32px;}
+#bb1_foto4{ width:90px; height:60px; background:url(../imagenes/alemania/bot1/foto4.png) no-repeat; margin: 10px 33px 0px 0px;}
+#bb1_foto5{ width:90px; height:60px; background:url(../imagenes/alemania/bot1/foto5.png) no-repeat; margin: 10px 10px 0px 32px;}
+#bb1_foto6{ width:90px; height:80px; background:url(../imagenes/alemania/bot1/foto6.png) no-repeat; margin: 10px 33px 0px 0px;}
+#bb1_foto7{ width:90px; height:65px; background:url(../imagenes/alemania/bot1/foto7.png) no-repeat; margin: 10px 10px 0px 32px; position: relative; top:-20px;}
+#bb1_foto8{ width:90px; height:60px; background:url(../imagenes/alemania/bot1/foto8.png) no-repeat; margin: 10px 33px 0px 0px;}
+#bb1_foto9{ width:90px; height:66px; background:url(../imagenes/alemania/bot1/foto9.png) no-repeat; margin: 10px 10px 0px 32px; position: relative; top:-20px;}
+#bb1_foto10{ width:90px; height:50px; background:url(../imagenes/alemania/bot1/foto10.png) no-repeat; margin: 10px 33px 0px 0px; position: relative; top:-5px;}
+
+#bb1_texto{ width:228px; height:515px; background:url(../imagenes/alemania/bot1/texto1.png) no-repeat; position:relative; top:60px; left:50px; }
+
+
+ /*-------------*/
+
+#bb2{ width:1015px; height:665px; position:absolute; top:-195px; left:684px; display: none;}
+#bb2_fondo{ width:760px; height:665px; background:url(../imagenes/alemania/bot2/fondo1.png); position:absolute; top:0px; left:0px;}
+#bb2_menu{ width:255px; height:530px; background:url(../imagenes/alemania/bot2/menu.png); position:absolute; top:0px; left:505px;}
+#bb2_menu2{ width:390px; height:135px; background:url(../imagenes/alemania/bot2/img1.png) no-repeat; position:absolute; top:530px; left:370px;}
+#bb2_bot{ width:390px; height:265px; background:url(../imagenes/alemania/bot2/bot1.png) no-repeat; position:absolute; top:130px; left:-385px;}
+
+#bb2_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb2_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb2_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#bb2_foto1{ width:90px; height:60px; background:url(../imagenes/alemania/bot2/foto1.png) no-repeat; margin: 65px 10px 0px 32px;}
+#bb2_foto2{ width:90px; height:60px; background:url(../imagenes/alemania/bot2/foto2.png) no-repeat; margin: 65px 33px 0px 0px;}
+#bb2_foto3{ width:90px; height:60px; background:url(../imagenes/alemania/bot2/foto3.png) no-repeat; margin: 10px 10px 0px 32px;}
+#bb2_foto4{ width:90px; height:90px; background:url(../imagenes/alemania/bot2/foto4.png) no-repeat; margin: 10px 33px 0px 0px;}
+#bb2_foto5{ width:90px; height:60px; background:url(../imagenes/alemania/bot2/foto5.png) no-repeat; margin: 10px 10px 0px 32px; position: relative; top:-30px;}
+#bb2_foto6{ width:90px; height:60px; background:url(../imagenes/alemania/bot2/foto6.png) no-repeat; margin: 10px 33px 0px 0px;}
+#bb2_foto7{ width:90px; height:97px; background:url(../imagenes/alemania/bot2/foto7.png) no-repeat; margin: 10px 10px 0px 32px; position: relative; top:-30px;}
+#bb2_foto8{ width:90px; height:67px; background:url(../imagenes/alemania/bot2/foto8.png) no-repeat; margin: 10px 33px 0px 0px;}
+
+#bb2_texto{ width:228px; height:515px; background:url(../imagenes/alemania/bot2/texto1.png) no-repeat; position:relative; top:60px; left:50px; }
+
+ /*-------------*/
+
+#bb3{ width:784px; height:530px; position:absolute; top:-295px; left:683px; display: none;}
+#bb3_fondo{ width:500px; height:530px; background:url(../imagenes/alemania/bot3/fondo1.png); position:absolute; top:0px; left:0px;}
+#bb3_menu{ width:255px; height:395px; background:url(../imagenes/alemania/bot3/menu.png); position:absolute; top:0px; left:245px;}
+#bb3_menu2{ width:390px; height:135px; background:url(../imagenes/alemania/bot3/img1.png) no-repeat; position:absolute; top:395px; left:110px;}
+#bb3_bot{ width:284px; height:265px; background:url(../imagenes/alemania/bot3/bot1.png) no-repeat; position:absolute; top:130px; left:-284px;}
+
+#bb3_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb3_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#bb3_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#bb3_foto1{ width:125px; height:120px; background:url(../imagenes/alemania/bot3/foto1.png) no-repeat; margin: 40px 65px 0px 65px;}
+#bb3_foto2{ width:125px; height:90px; background:url(../imagenes/alemania/bot3/foto2.png) no-repeat; margin: 20px 65px 0px 65px;}
+
+#bb3_texto{ width:228px; height:515px; background:url(../imagenes/alemania/bot3/texto1.png) no-repeat; position:relative; top:40px; left:60px; }
+
+/*--------------------------------------------------------------------------*/
+
+#cc{ background:url(../imagenes/img/bot_c1.png) no-repeat; width:100px; height:100px; position:absolute; top:400px; left:200px;}
+#cc0{ background:url(../imagenes/img/bot_c.png) no-repeat; width:300px; height:400px; position:absolute; top:0; left:200px; display:none;}
+
+#c_bot1{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg); position: relative; top:300px; left:50px;}
+#c_bot2{ width:100px; height:100px; position: relative; top:200px; left:0px;}
+#c_bot3{ width:100px; height:100px; -webkit-transform: skew(-45deg,0deg);-moz-transform: skew(-45deg,0deg); position: relative; top:100px; left:-50px; }
+#c_bot4{ width:100px; height:100px; position: relative; top:-100px; left:200px;}
+
+
+/*--------------------------*/
+
+#cc1{ width:1015px; height:665px; position:absolute; top:5px; left:683px; display:none;}
+#cc1_fondo{ width:760px; height:665px; background:url(../imagenes/italia/bot1/fondo1.png); position:absolute; top:0px; left:0px;}
+#cc1_menu{ width:255px; height:530px; background:url(../imagenes/italia/bot1/menu.png); position:absolute; top:0px; left:505px;}
+#cc1_menu2{ width:390px; height:135px; background:url(../imagenes/italia/bot1/img1.png) no-repeat; position:absolute; top:530px; left:370px;}
+#cc1_bot{ width:390px; height:265px; background:url(../imagenes/italia/bot1/bot1.png) no-repeat; position:absolute; top:130px; left:-385px;}
+
+#cc1_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc1_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc1_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#cc1_foto1{ width:125px; height:180px; background:url(../imagenes/italia/bot1/foto1.png) no-repeat; margin: 65px 65px 0px 65px;}
+#cc1_foto2{ width:125px; height:125px; background:url(../imagenes/italia/bot1/foto2.png) no-repeat; margin: 20px 65px 0px 65px;}
+
+#cc1_texto{ width:255px; height:500px; background:url(../imagenes/italia/bot1/texto1.png) no-repeat; position:relative; top:65px; left:60px; }
+
+/*--------------------------*/
+
+
+#cc2{ width:1015px; height:665px; position:absolute; top:-195px; left:783px; display:none;}
+#cc2_fondo{ width:760px; height:665px; background:url(../imagenes/italia/bot2/fondo1.png); position:absolute; top:0px; left:0px;}
+#cc2_menu{ width:255px; height:530px; background:url(../imagenes/italia/bot2/menu.png); position:absolute; top:0px; left:505px;}
+#cc2_menu2{ width:390px; height:135px; background:url(../imagenes/italia/bot2/img1.png) no-repeat; position:absolute; top:530px; left:370px;}
+#cc2_bot{ width:390px; height:265px; background:url(../imagenes/italia/bot2/bot1.png) no-repeat; position:absolute; top:130px; left:-385px;}
+
+#cc2_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc2_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc2_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#cc2_foto1{ width:130px; height:145px; background:url(../imagenes/italia/bot2/foto1.png) no-repeat; margin: 65px 65px 0px 65px;}
+#cc2_foto2{ width:130px; height:185px; background:url(../imagenes/italia/bot2/foto2.png) no-repeat; margin: 20px 65px 0px 65px;}
+
+#cc2_texto{ width:245px; height:300px; background:url(../imagenes/italia/bot2/texto1.png) no-repeat; position:relative; top:65px; left:60px; }/*--------------------------*/
+
+/*--------------------------*/
+
+#cc3{ width:1015px; height:665px; position:absolute; top:-295px; left:783px; display:none;}
+#cc3_fondo{ width:500px; height:530px; background:url(../imagenes/italia/bot3/fondo1.png); position:absolute; top:0px; left:0px;}
+#cc3_menu{ width:255px; height:395px; background:url(../imagenes/italia/bot3/menu.png); position:absolute; top:0px; left:245px;}
+#cc3_menu2{ width:390px; height:135px; background:url(../imagenes/italia/bot3/img1.png) no-repeat; position:absolute; top:395px; left:110px;}
+#cc3_bot{ width:284px; height:265px; background:url(../imagenes/italia/bot3/bot1.png) no-repeat; position:absolute; top:130px; left:-284px;}
+
+#cc3_menu2a{ width:85px; height:85px; background:url(../imagenes/menu_1.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc3_menu2b{ width:85px; height:85px; background:url(../imagenes/menu_2.png) no-repeat; position:relative; top:0px; left:135px;}
+#cc3_menu2c{ width:85px; height:85px; background:url(../imagenes/menu_3.png) no-repeat; position:relative; top:0px; left:135px;}
+
+#cc3_foto1{ width:125px; height:125px; background:url(../imagenes/italia/bot3/foto1.png) no-repeat; margin: 65px 65px 0px 65px;}
+#cc3_foto2{ width:125px; height:80px; background:url(../imagenes/italia/bot3/foto2.png) no-repeat; margin: 20px 65px 0px 65px;}
+
+#cc3_texto{ width:245px; height:300px; background:url(../imagenes/italia/bot3/texto1.png) no-repeat; position:relative; top:65px; left:60px; }
+
+/*--------------------------------------------------------------------------*/
